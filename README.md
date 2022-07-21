@@ -14,6 +14,6 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
   4- City tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
  
- * SELECT country_id, count(city) FROM city GROUP BY country_id ORDER BY count(city_id) DESC Limit 1 ;
+ * SELECT country_id, count(*) FROM city GROUP BY country_id ORDER BY count(city_id) DESC Limit 1 ;
 	
 		
